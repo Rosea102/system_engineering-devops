@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p, declare -f
+echo "$my_local_variable"
