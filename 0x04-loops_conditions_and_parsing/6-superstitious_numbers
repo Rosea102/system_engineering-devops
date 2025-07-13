@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-This script displays numbers from 1 to 20 and shows specific "bad luck" messages using a case statement
+# This script displays numbers from 1 to 20 and shows specific "bad luck" messages using a case statement
 
 i=1
 while [ i -le 20 ]; do
