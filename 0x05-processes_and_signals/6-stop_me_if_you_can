@@ -3,5 +3,8 @@
 
 pid=(pgrep -f 4-to_infinity_and_beyond)
 if [ -n "pid" ]; then
-  perl -e "kill 15, $pid"
+  # Handle multiple PIDs by looping over them
+  for p in pid; do
+    perl -e "kill 15,p"
+  done
 fi
